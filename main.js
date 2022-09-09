@@ -2,6 +2,8 @@ const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
 
+document.querySelector('html').style.backgroundColor = 'red';
+
 function randomValueFromArray(array){
   const random = Math.floor(Math.random()*array.length);
   return array[random];
@@ -30,7 +32,7 @@ function result() {
     const temperature =  Math.round(94);
 
   }
-  story.textContent = ;
+  //story.textContent = ;
   story.style.visibility = 'visible';
   
   let NewStory = StoryText;
