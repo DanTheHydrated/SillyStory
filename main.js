@@ -8,7 +8,7 @@ let storyText = 'It was 94 fahrenheit outside, so :insertx: went for a walk. Whe
 let insertX = ['Willy the Goblin','Big Daddy','Father Christmas'];
 let insertY = ['the soup kitchen','Disneyland','the White House'];
 let insertZ = ['spontaneously combusted','melted into a puddle on the sidewalk','turned into a slug and crawled away'];
-
+//let Streach = 'Daniel is learning but very slowly!'
 
 function randomValueFromArray(array) {
   const random = Math.floor(Math.random() * array.length);
@@ -44,4 +44,10 @@ randomize.addEventListener('click', result);
   story.textContent = newStory;
   story.style.visibility = 'visible';
 
+  /*
+  if (customName.value !== 'Daniel') {
+    let newStory = storyText.replace('It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.',Streach);
+  
+  }
+   */
 }
