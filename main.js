@@ -26,7 +26,7 @@ function result() {
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
+    const weight = Math.round(300/14);
     const temperature =  Math.round(94);
 
   }
