@@ -32,7 +32,7 @@ function result() {
     const temperature =  Math.round(94);
 
   }
-  story.textContent = 'visible';
+  story.textContent = 'NewStory';
   story.style.visibility = 'visible';
   
   let NewStory = StoryText;
